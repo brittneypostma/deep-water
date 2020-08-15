@@ -201,7 +201,11 @@
     },
     {
       "name": "Teal",
-      "scope": [""],
+      "scope": [
+        "string.other.link.title.markdown",
+        "support.type.property-name",
+        "variable.other.object"
+      ],
       "settings": {
         "foreground": "#047D80"
       }
@@ -224,7 +228,6 @@
         "variable.other.object.property",
         "variable.other.readwrites",
         "meta.definition.variable",
-        "support.variable.property",
         "variable.other.readwrite.js",
         "variable.other.meta.import.js",
         "meta.import.js variable.other",
@@ -251,12 +254,9 @@
     {
       "name": "Blue",
       "scope": [
-        "constant.numberic",
-        "constant.numeric.decimal",
-        "constant.numberic.hex",
+        "constant.numeric",
         "markup.bold.markdown",
         "punctuation.definition.bold.markdown",
-        "string.other.link.title.markdown",
         "markup.italic.markdown",
         "punctuation.definition.italic.markdown",
         "punctuation.definition.metadata.markdown"
@@ -266,14 +266,20 @@
       }
     },
     {
-      "name": "Seafoam Dark",
-      "scope": ["entity.name.function", "support.constant", "support.function"],
+      "name": "Seafoam",
+      "scope": [
+        "entity.name.function",
+        "entity.other.attribute-name",
+        "support.constant",
+        "support.function",
+        "support.variable.property"
+      ],
       "settings": {
         "foreground": "#8CE6D0"
       }
     },
     {
-      "name": "Seafoam",
+      "name": "Light Blue",
       "scope": [
         "entity.name.section.markdown",
         "punctuation.definition.heading.markdown",
@@ -284,18 +290,14 @@
         "support.constant.json",
         "meta.structure.dictionary.value.json string.quoted.double",
         "string.quoted.double.json punctuation.definition.string.json",
+        "meta.paragraph.markdown",
         "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
-        "source.json support"
+        "source.json support",
+        "source.svelte",
+        "text.html.markdown"
       ],
       "settings": {
         "foreground": "#A5DEE0"
-      }
-    },
-    {
-      "name": "Light Blue",
-      "scope": [""],
-      "settings": {
-        "foreground": "#D1ECEA"
       }
     },
     {
@@ -326,6 +328,10 @@
         "storage.type.property.ts",
         "punctuation.separator.key-value",
         "punctuation.definition.block",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
         "punctuation.definition.tag",
         "source.json string",
         "source.json punctuation.definition.string"
@@ -333,6 +339,185 @@
       "settings": {
         "foreground": "#f7f598"
       }
-    }
+    }{
+        "name": "Italic",
+        "scope": [
+          "comment",
+          "entity.name.type.class",
+          "entity.other.attribute-name",
+          "entity.name.method",
+          "entity.name.tag",
+          "keyword",
+          "keyword.control",
+          "markup.italic.markdown",
+          "punctuation.definition.italic.markdown",
+          "storage",
+          "string.other.link.title.markdown"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Gray",
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#4b6869"
+        }
+      },
+      {
+        "name": "Dark Teal",
+        "scope": [
+          "string.template meta.template.expression",
+          "keyword",
+          "storage.type",
+          "storage.modifier",
+          "variable.language.this"
+        ],
+        "settings": {
+          "foreground": "#01779b"
+        }
+      },
+      {
+        "name": "Teal",
+        "scope": [
+          "string.other.link.title.markdown",
+          "support.type.property-name",
+          "variable.other.object"
+        ],
+        "settings": {
+          "foreground": "#047D80"
+        }
+      },
+      {
+        "name": "Light Teal",
+        "scope": [
+          "markup.underline.link.image.markdown",
+          "markup.underline.link.markdown",
+          "constant.language",
+          "punctuation.definition.constant",
+          "variable.other.constant",
+          "constant.character",
+          "constant.other",
+          "variable.instance",
+          "variable.other.instance",
+          "variable.readwrite.instance",
+          "variable.other.readwrite.instance",
+          "variable.other.property",
+          "variable.other.object.property",
+          "variable.other.readwrites",
+          "meta.definition.variable",
+          "variable.other.readwrite.js",
+          "variable.other.meta.import.js",
+          "meta.import.js variable.other",
+          "variable.other.meta.export.js",
+          "meta.export.js variable.other",
+          "invalid.deprecated.entity.other.attribute-name"
+        ],
+        "settings": {
+          "foreground": "#17ADB0"
+        }
+      },
+      {
+        "name": "Caribbean Blue",
+        "scope": [
+          "string.quoted",
+          "variable.parameter",
+          "entity.name.type",
+          "entity.name.tag"
+        ],
+        "settings": {
+          "foreground": "#1CA0BE"
+        }
+      },
+      {
+        "name": "Blue",
+        "scope": [
+          "constant.numeric",
+          "markup.bold.markdown",
+          "punctuation.definition.bold.markdown",
+          "markup.italic.markdown",
+          "punctuation.definition.italic.markdown",
+          "punctuation.definition.metadata.markdown"
+        ],
+        "settings": {
+          "foreground": "#6CC1D9"
+        }
+      },
+      {
+        "name": "Seafoam",
+        "scope": [
+          "entity.name.function",
+          "entity.other.attribute-name",
+          "support.constant",
+          "support.function",
+          "support.variable.property"
+        ],
+        "settings": {
+          "foreground": "#8CE6D0"
+        }
+      },
+      {
+        "name": "Light Blue",
+        "scope": [
+          "entity.name.section.markdown",
+          "punctuation.definition.heading.markdown",
+          "punctuation.definition.string.begin.markdown",
+          "punctuation.definition.string.end.markdown",
+          "markup.quote.markdown",
+          "support.type.property-name.json",
+          "support.constant.json",
+          "meta.structure.dictionary.value.json string.quoted.double",
+          "string.quoted.double.json punctuation.definition.string.json",
+          "meta.paragraph.markdown",
+          "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
+          "source.json support",
+          "source.svelte",
+          "text.html.markdown"
+        ],
+        "settings": {
+          "foreground": "#A5DEE0"
+        }
+      },
+      {
+        "name": "White",
+        "scope": ["punctuation.definition.string"],
+        "settings": {
+          "foreground": "#EAF0EF"
+        }
+      },
+      {
+        "name": "Red",
+        "scope": [
+          "markup.inline.raw.string.markdown",
+          "markup.fenced_code.block.markdown"
+        ],
+        "settings": {
+          "foreground": "#ff0404"
+        }
+      },
+      {
+        "name": "Yellow",
+        "scope": [
+          "keyword.operator",
+          "storage",
+          "meta.var.expr",
+          "meta.class meta.method.declaration meta.var.expr storage.type.js",
+          "storage.type.property.js",
+          "storage.type.property.ts",
+          "punctuation.separator.key-value",
+          "punctuation.definition.block",
+          "punctuation.definition.list.begin.markdown",
+          "punctuation.definition.metadata.markdown",
+          "punctuation.definition.string.begin.markdown",
+          "punctuation.definition.string.end.markdown",
+          "punctuation.definition.tag",
+          "source.json string",
+          "source.json punctuation.definition.string"
+        ],
+        "settings": {
+          "foreground": "#f7f598"
+        }
+      }
   ]
 }
