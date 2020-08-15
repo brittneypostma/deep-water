@@ -1,0 +1,28 @@
+{
+  "publisher": "BrittneyPostma",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "deep-water",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-theme.json"
+      }
+    ]
+  },
+  "name": "deep-water",
+  "version": "1.0.0",
+  "description": "dark theme for VS Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
