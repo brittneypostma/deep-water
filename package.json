@@ -1,4 +1,10 @@
 {
+  "name": "deep-water",
+  "displayName": "Deep Water",
+  "description": "dark theme for VS Code",
+  "version": "1.0.6",
+  "repository": "https://github.com/brittneypostma/deep-water.git",
+  "author": "Brittney Postma <bdesignedwebdev@gmail.com> (www.bdesigned.dev)",
   "publisher": "bDesigned",
   "engines": {
     "vscode": "^1.0.0"
@@ -9,23 +15,11 @@
   "contributes": {
     "themes": [
       {
-        "label": "deep-water",
+        "label": "Deep Water",
         "uiTheme": "vs-dark",
         "path": "./themes/deep-water.json"
       }
     ]
-  },
-  "name": "deep-water",
-  "displayName": "Deep Water",
-  "version": "1.0.6",
-  "description": "dark theme for VS Code",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brittneypostma/deep-water"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "icon": "images/logo.png",
   "keywords": [
@@ -36,6 +30,5 @@
     "colors",
     "theme"
   ],
-  "author": "Brittney Postma <bdesignedwebdev@gmail.com> (www.bdesigned.dev)",
   "license": "MIT"
 }
