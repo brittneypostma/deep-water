@@ -16,13 +16,26 @@
     ]
   },
   "name": "deep-water",
+  "displayName": "Deep Water",
   "version": "1.0.0",
   "description": "dark theme for VS Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brittneypostma/vscode-theme"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "deep",
+    "water",
+    "deepwater",
+    "deep-water",
+    "colors",
+    "theme"
+  ],
+  "icon": "https://www.bDesigned.dev/android-chrome-192x192.png",
+  "author": "Brittney Postma <bdesignedwebdev@gmail.com> (www.bdesigned.dev)",
+  "license": "MIT"
 }
