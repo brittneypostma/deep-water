@@ -11,7 +11,7 @@
       {
         "label": "deep-water",
         "uiTheme": "vs-dark",
-        "path": "./themes/my-theme.json"
+        "path": "./themes/deep-water.json"
       }
     ]
   },
