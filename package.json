@@ -17,11 +17,11 @@
   },
   "name": "deep-water",
   "displayName": "Deep Water",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "dark theme for VS Code",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brittneypostma/vscode-theme"
+    "url": "https://github.com/brittneypostma/deep-water"
   },
   "main": "index.js",
   "scripts": {

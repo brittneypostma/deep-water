@@ -11,7 +11,6 @@ A color theme based on the colors of the ocean 🌊
 [![version](https://badgen.net/vs-marketplace/v/bDesigned.deep-water)][self]
 [![installs](https://badgen.net/vs-marketplace/i/bDesigned.deep-water)][self]
 [![downloads](https://badgen.net/vs-marketplace/d/bDesigned.deep-water)][self]
-[![license](https://badgen.net/github/license/bDesigned/deep-water)][license]
 
 </div>
 
