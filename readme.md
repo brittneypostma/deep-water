@@ -14,6 +14,8 @@ A color theme based on the colors of the ocean 🌊
 
 </div>
 
+Currently only fully supports HTML, CSS, and JavaScript languages, pr's are welcome for other languages!
+
 ---
 
 **HTML**
@@ -30,3 +32,10 @@ A color theme based on the colors of the ocean 🌊
 
 [self]: https://marketplace.visualstudio.com/items?itemName=bDesigned.deep-water
 [license]: https://marketplace.visualstudio.com/items/bDesigned.deep-water/license
+
+---
+
+## Contributors
+
+[![@grikomsn](https://avatars2.githubusercontent.com/u/8220954?s=460&u=574bb8f8c370f3113a580e4c155a86ab530993d7&v=4)](https://github.com/grikomsn/)<br/>
+@grikomsn
