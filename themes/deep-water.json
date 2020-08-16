@@ -339,6 +339,8 @@
         "punctuation.definition.tag",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.end.js",
         "source.json string",
         "source.json punctuation.definition.string"
       ],
