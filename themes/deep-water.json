@@ -286,6 +286,7 @@
         "markup.inline.raw.string.markdown",
         "punctuation.definition.bold.markdown",
         "string.quoted.double.json",
+        "string.template.js",
         "support.class",
         "support.constant",
         "support.function",
