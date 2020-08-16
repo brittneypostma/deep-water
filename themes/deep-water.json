@@ -256,8 +256,8 @@
         "string.quoted",
         "variable.parameter",
         "entity.name.type",
+        "entity.name.type.js",
         "entity.name.tag",
-
         "markup.bold.markdown"
       ],
       "settings": {
@@ -286,8 +286,10 @@
         "markup.inline.raw.string.markdown",
         "punctuation.definition.bold.markdown",
         "string.quoted.double.json",
+        "support.class",
         "support.constant",
         "support.function",
+        "support.type",
         "support.variable.property"
       ],
       "settings": {
@@ -326,6 +328,8 @@
       "scope": [
         "keyword.operator",
         "storage",
+        "meta.brace.round.js",
+        "meta.brace.square.js",
         "meta.var.expr",
         "meta.class meta.method.declaration meta.var.expr storage.type.js",
         "storage.type.property.js",
