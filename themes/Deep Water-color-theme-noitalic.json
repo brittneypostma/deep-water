@@ -201,7 +201,7 @@
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#008c96",
     "list.hoverBackground": "#008c96",
-    "list.hoverForeground": "#ffffff",
+    "list.hoverForeground": "#f7f598",
     "list.inactiveSelectionBackground": "#008c96",
     "list.inactiveSelectionForeground": "#08131a",
     "list.invalidItemForeground": "#975f94",
