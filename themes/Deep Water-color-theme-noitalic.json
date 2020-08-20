@@ -10,6 +10,7 @@
     "activityBar.foreground": "#008c96",
     "activityBarBadge.background": "#08131a",
     "activityBarBadge.foreground": "#008c96",
+    "activityBar.dropBackground": "#D0D0D0",
     "badge.background": "#08131a",
     "badge.foreground": "#008c96",
     "button.background": "#08131a",
@@ -403,7 +404,7 @@
     "terminal.ansiGreen": "#01779b",
     "terminal.ansiMagenta": "#01779b",
     "terminal.ansiRed": "#ff0000",
-    "terminal.ansiYellow": "#fef598",
+    "terminal.ansiYellow": "#08131a",
     "terminal.background": "#08131a",
     "terminal.foreground": "#008c96",
     "terminal.selectionBackground": "#008c96",
@@ -420,25 +421,6 @@
     "widget.shadow": "#008c96"
   },
   "tokenColors": [
-    {
-      "name": "Italic",
-      "scope": [
-        "comment",
-        "entity.name.type.class",
-        "entity.other.attribute-name",
-        "entity.name.method",
-        "entity.name.tag",
-        "keyword",
-        "keyword.control",
-        "markup.italic.markdown",
-        "punctuation.definition.italic.markdown",
-        "storage",
-        "string.other.link.title.markdown"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
     {
       "name": "Gray",
       "scope": ["comment"],
