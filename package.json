@@ -2,7 +2,7 @@
   "name": "deep-water",
   "displayName": "Deep Water",
   "description": "A color theme based on the colors of the ocean 🌊",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Brittney Postma <bdesignedwebdev@gmail.com> (www.bdesigned.dev)",
   "publisher": "bDesigned",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -16,7 +16,14 @@
     "deepwater",
     "deep-water",
     "colors",
-    "theme"
+    "theme",
+    "Theme",
+    "Dark Theme",
+    "Light Theme",
+    "Deep Water",
+    "Dark Theme",
+    "Light Theme",
+    "Accessible Theme"
   ],
   "scripts": {
     "publish": "vsce publish"
@@ -46,12 +53,12 @@
       },
       {
         "label": "Deep Water Light",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/Deep Water-Light-color-theme.json"
       },
       {
         "label": "Deep Water Light No Italics",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/Deep Water-Light-color-theme-noitalic.json"
       }
     ]
