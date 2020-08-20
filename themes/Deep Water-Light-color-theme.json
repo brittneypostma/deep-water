@@ -1,6 +1,6 @@
 {
-  "name": "Deep Water",
-  "type": "dark",
+  "name": "Deep Water Light",
+  "type": "light",
   "colors": {
     "activityBar.activeBorder": "#008c96",
     "activityBar.dropBorder": "#008c96",
@@ -10,7 +10,6 @@
     "activityBar.foreground": "#008c96",
     "activityBarBadge.background": "#d3f3fc",
     "activityBarBadge.foreground": "#008c96",
-    "activityBar.dropBackground": "#D0D0D0",
     "badge.background": "#d3f3fc",
     "badge.foreground": "#008c96",
     "button.background": "#d3f3fc",

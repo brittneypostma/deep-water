@@ -1,6 +1,6 @@
 {
-  "name": "Deep Water",
-  "type": "dark",
+  "name": "Deep Water Light No Italics",
+  "type": "light",
   "colors": {
     "activityBar.activeBorder": "#008c96",
     "activityBar.dropBorder": "#008c96",
