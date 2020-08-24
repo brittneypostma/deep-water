@@ -549,7 +549,8 @@
         "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
         "source.json support",
         "source.svelte",
-        "text.html.markdown"
+		"text.html.markdown",
+		"text.html"
       ],
       "settings": {
         "foreground": "#A5DEE0"
