@@ -35,7 +35,13 @@ Currently only fully supports HTML, CSS, and JavaScript languages, pr's are welc
 
 ---
 
+## Developer
+[![@brittneypostma](https://avatars2.githubusercontent.com/u/45889730?s=460&u=b2f751a025f40cb1fe3f97e6e97760407cce7538&v=4)](https://github.com/brittneypostma/)<br/>
+
+---
+
 ## Contributors
 
-[![@grikomsn](https://avatars2.githubusercontent.com/u/8220954?s=460&u=574bb8f8c370f3113a580e4c155a86ab530993d7&v=4)](https://github.com/grikomsn/)<br/>
+<a href="https://github.com/grikomsn/"><img src="https://avatars2.githubusercontent.com/u/8220954?s=460&u=574bb8f8c370f3113a580e4c155a86ab530993d7&v=4)](https://github.com/grikomsn/" alt="grikomsn" width="10%"></a>
+
 @grikomsn
